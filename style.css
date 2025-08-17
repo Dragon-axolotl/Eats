@@ -1,0 +1,133 @@
+:root {
+--text-color: #252B42;
+--light-text-color: #FFFFFF;
+--snd-text-color: #737373;
+--dark-bg-color: ;
+--light-bg-color: ;
+--white: #FFFFFF;
+--orange: #FA4A0C;
+--l-orange: #E78200;
+--black: #000000;
+--blue: #009CBF;
+}
+/* general styles */
+body {
+    font-family: "Montserrat" serif;
+    color: var(--text-color)
+}
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+/* header styles */
+header {
+    height: 156px;
+
+}
+.header-cont {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    flex-basis: 580px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-item a {
+    color: var(--blue);
+    text-decoration: none;
+}
+.nav-item a[href="self"] {
+    color: var(--orange);
+    text-decoration: none;
+    
+}
+/* main styles */
+.hero {
+    color: var(--light-text-color);
+    height: 618px;
+    background: url(./img/Rectangle48.jpg) bottom no-repeat;
+    background-size: cover;
+}
+.hero-cont {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.hero-app {
+    margin-top: 100px;
+}
+.hero-cont h1 {
+    width: 799px;
+    font-family: "Poppins" sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+    text-align: center;
+    
+}
+.hero-cont ul {
+    flex-basis: 542px;
+    display: flex;
+}
+.hero-btn{
+    width: 236px;
+    height: 68px;
+    border-radius: 20px;
+}
+.howit-cont {
+    text-align: center;
+}
+.howit-cont ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.how-card {
+    display: flex;
+    flex-basis: calc((100% - 40px) / 2);
+    justify-content: center;
+}
+.card-text {
+    flex-basis: 586px;
+    flex-wrap: wrap;
+}
+.order {
+    height: 516px;
+    background: url(./img/Rectangle47.jpg) bottom no-repeat;
+    background-size: cover;
+    color: var(--light-text-color);
+}
+.order-cont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    gap: 20px;
+}
+.order-btns {
+    display: flex;
+}
+/* footer styles */
+.footer-cont {
+    margin-top: 50px;
+    height: 133px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
